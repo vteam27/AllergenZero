@@ -1,4 +1,4 @@
-# AllergeneZero
+# AllergenZero
 AllergenZero is a website that provides a wide range of delicious and healthy food recipes for people with food allergies. Whether you're allergic to gluten, dairy, nuts, or any other ingredient, AllergenZero has got you covered. Our recipes are carefully crafted to ensure that they are completely free from allergens, while still being full of flavor and nutrition.
 
 In addition to our regular recipes, AllergenZero also offers alternative recipe suggestions for each dish, so you can still enjoy your favorite meals even if you have an allergy. Our team of expert chefs and nutritionists work tirelessly to create delicious and safe recipes that everyone can enjoy.
