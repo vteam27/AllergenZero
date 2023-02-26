@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel=  "icon" href="/images/favicon (1).ico">  
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloock&display=swap"
+      rel="stylesheet"/>
+      <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/homeStyle.css" />
+    <title>AllergèneZero</title>
+  </head>
+  <body>
+
+
+    <div class="header">
+      <div class="search" id="search-bar">
+          <i class="material-icons" style="font-size: 48px; color: black">search</i>
+      </div>
+
+      
+      <script>
+        let search = document.querySelector(".search");
+        search.onclick = function(){
+          document.querySelector(".container").classList.toggle('active');
+        }
+      </script>
+      
+
+      <h1 class="heading">AllergèneZero</h1>
+      <div class="nav">
+        <a class="nav-item" href="#">Home</a>
+        <a class="nav-item" href="#">Blog</a>
+        <a class="nav-item" href="#">Recipe</a>
+        <a class="nav-item" href="#">Filters</a>
+      </div>
+
+      <div class="banner" alt="food with pictures">
+        <div class="banner-photo" alt=" food with pictures">
+          <img src="images/food.jpg" height="512px" width="615px" alt="" />
+        </div>
+        <div class="banner-text">
+        
+        </div>
+      </8div>
+
+      <div class="Recipe-preview">
+        <h1>Lactose Free Recipes</h1>
+        <br />
+        <form action="/recipe" method="post">
+          <div class="lactose-recipe-img-1">
+            <button type="submit">
+              <img
+                class="recepie-img"
+                style="display: inline-block"
+                src="images/food.jpg"
+                alt=""
+              />
+            </button>
+            <button type="submit">
+              <img
+                class="recepie-img"
+                style="display: inline-block"
+                src="images/food.jpg"
+                alt=""
+              />
+            </button>
+            <button type="submit">
+              <img
+                class="recepie-img"
+                style="display: inline-block"
+                src="images/food.jpg"
+                alt=""
+              />
+            </button>
+          </div>
+          <br />
+          <h1>Protein Rich Recipes</h1>
+          <br />
+          <div class="protein-recipe-img-1">
+            <button type="submit">
+              <img
+                class="recepie-img"
+                style="display: inline-block"
+                src="images/food.jpg"
+                alt=""
+              />
+            </button>
+            <button type="submit">
+              <img
+                class="recepie-img"
+                style="display: inline-block"
+                src="images/food.jpg"
+                alt=""
+              />
+            </button>
+            <button type="submit">
+              <img
+                class="recepie-img"
+                style="display: inline-block"
+                src="images/food.jpg"
+                alt=""
+              />
+            </button>
+          </div>
+        </form>
+      </div>
+      <br />
+    </div>
+  </body>
+</html>

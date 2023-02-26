@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.header {
+  position: relative;
+  width: 100%;
+  height: 109px;
+  background: #ff0000;
+}
+.heading {
+  position: absolute;
+  height: 281px;
+  width: 219px;
+  left: 20px;
+  top: 35px;
+  border-radius: nullpx;
+
+  font-family: 'Gloock', serif;  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 28px;
+  /* identical to box height, or 47% */
+
+  letter-spacing: -0.2px;
+
+  color: #020000;
+}
+.nav {
+  position: relative;
+  text-align: center;
+  top: 37%;
+}
+.nav-item {
+  position:relative;
+  text-decoration: none;
+  font-family: 'Gloock', serif;  font-style: normal;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+  text-align: right;
+  letter-spacing: -0.2px;
+  padding: 0 15px 0 15px;
+}
+.nav-item::after{
+  content: "";
+  position: absolute;
+  background-color: white;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+.nav-item:hover{
+  color: #FFFFFF;
+}
+.nav-item:hover::after{
+  width: 100%;
+}
+.banner {
+  margin: 50px auto 50px auto;
+  height: 516px;
+  margin-top: 150px ;
+  position: relative;
+  width: 1024px;
+  border: 2px solid;
+  background-color: white;
+}
+.banner-photo{
+  width: 60%;
+  height: 516px;
+}
+.search{
+  position: absolute;
+  top: 25%;
+  right: 25px;
+  height : 50px;
+  width : 50px;
+  background: white;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-bottom: 15px;
+  border-radius: 180px;
+  border: none;
+}
+.search .icon{
+  display:flex;
+  position: absolute;
+  left:30px;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+.container.icon.search{
+  font-size: 21px;
+  cursor: pointer;
+  color:#444;
+
+}
+/* .search-box {
+  position: relative;
+  display: inline-block;
+  right:0;
+  width: 200px;
+  right:0;
+}
+
+.search-box input[type="text"] {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.search-box button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #2196F3;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.search-box input[type="text"]:focus {
+  width: 300px;
+}
+
+.search-box input[type="text"]:focus + button {
+  background-color: #FF5722;
+} */
+
+.lactose-recipe-img-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  .lactose-recipe-img-1 img {
+  margin-left: 100px;
+  margin-right: 100px;
+  }
+  
+  .protein-recipe-img-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+  }
+  .protein-recipe-img-1 img {
+
+    margin-left: 100px;
+    margin-right: 100px;
+    }
+    .recepie-img{
+      width: 200px;
+      height: 200px;
+    }
+    
+  h1{
+    font-family: 'Gloock', serif;  font-style: normal;
+  }
+
+
+.post-rep {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  /* or 200% */
+
+  letter-spacing: -0.2px;
+
+  color: #000000;
+}
